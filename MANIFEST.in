@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include beef_management *.css
+recursive-include beef_management *.csv
+recursive-include beef_management *.html
+recursive-include beef_management *.ico
+recursive-include beef_management *.js
+recursive-include beef_management *.json
+recursive-include beef_management *.md
+recursive-include beef_management *.png
+recursive-include beef_management *.py
+recursive-include beef_management *.svg
+recursive-include beef_management *.txt
+recursive-exclude beef_management *.pyc
